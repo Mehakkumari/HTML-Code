@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div{
+            margin: auto;
+            width: 70%;
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        p{
+            text-align: center;
+            font-size: larger;
+            color: grey;
+        }
+        #img1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            color: grey;
+            margin-bottom: 0;
+        }
+        #link{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size:30px;
+            color: blue;
+            font-weight: 800;
+            margin-top: 0;
+        }
+        #underline{
+            content: " ";
+            display: block;
+            border-top:0.1px solid rgb(202, 198, 198) ;
+            margin-top: 120px;
+        }
+        #img2{
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+        }
+        #next{
+            display: inline;
+        }
+        #text{
+            display: inline;
+            padding-left: 30px; 
+           }
+           h3{
+            padding-left: 80px;
+            color: red;
+            font-size: medium;
+           }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Contact Us</h1>
+    <p>We know that choosing the right institute or a career path can be a difficult and tiring process, and that's why we're here for you. Contact us to ask any questions, we'll respond over email as soon as possible!</p>
+    <img src="https://www.masaischool.com/images/contact/mail.svg" id="img1" alt="Email Option">
+    <h2>Write to us at</h2>
+    <a id="link" href="admissions@masaischool.com" >admissions@masaischool.com</a>
+    <h4 id="underline"></h4>
+    <div id="next">
+    <img src="data:image/png;base64,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" id="img2"alt="Mona">
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non minima? Quo illum sapiente quidem totam, repellendus nesciunt accusamus! Quis officiis itaque ut iste sunt minus hic magnam est ipsum?</p>
+    </div>
+    <h3>Click here to register</h3>
+</div>
+</body>
+</html>
