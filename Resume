@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume</title>
+    <style>
+        div{
+            margin: auto;
+            width: 80%;
+        }
+        h1{
+            text-align: center;
+            padding-top: 5%;
+            color: #008cff;
+        }
+        #underline{
+            border-top: 3px solid #008cff ;
+            height: 2px;
+            background-color: #008cff;
+        }
+        p{
+            text-align: right;
+        }
+        h3{
+            color: #008cff;
+        }
+        #para{
+            text-align: justify;
+        }
+        .head{
+            margin-top: -15px;
+        }
+        .just{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Mehak Kumari</h1>
+        <hr id="underline"></hr>
+        <p>A-54/15,Baba Colony, Burari, Delhi-110084 | +918851419333 | mehakkumari9433@gmail.com</p>
+        <h3>Objective</h3>
+        <p id="para">Hello, I'm Mehak, a dedicated final-year B.Tech student majoring in Computer Science and Engineering (CSE). As I approach the culmination of my academic journey, I am eager to translate my theoretical knowledge into practical experience. Actively seeking internship and job opportunities in the IT sector, I am poised to kickstart my professional career. My technical proficiency encompasses a spectrum of programming languages including C, C++, HTML, CSS, JavaScript, and Python. Complementing these skills, I am actively developing expertise in cybersecurity, reflecting my commitment to staying ahead in the rapidly evolving tech landscape. Beyond technical acumen, I bring strong soft skills to the table—critical thinking for strategic problem-solving, efficient time management for timely project delivery, and adaptability to thrive in dynamic work environments. I am excited about the prospect of contributing my skills and passion to innovative IT projects and teams.</p>
+        <h3>Education</h3>
+        <h4 class="head">Bachelor's of Technology in CSE | 2022 - Pursuing</h4>
+        <ul>
+            <li>Pursuing in Computer Science Engineering from Ganga Institute of Technology and Management from 2022</li>
+        </ul>
+        <h4>Diploma in ECE | August 2017-October 2020</h4>
+        <ul>
+            <li>Completed Diploma in Electronics and Communication Engineering from Pusa Institute of Technology in October 2020</li>
+        </ul>
+        <h4>Matriculation | CBSE | June 2017</h4>
+        <ul>
+            <li>Completed 10th from CBSE Board in June 2017</li>
+        </ul>
+        <h3>Skille & Abilities</h3>
+        <h4 class="head">Programming Skills</h4>
+        <ul>
+            <li class="just">I possess a strong foundation in various programming languages, showcasing proficiency in C, C++, HTML, CSS, JavaScript, and Python. My command over these languages enables me to develop robust and efficient code, allowing for versatile application across different domains. From low-level programming with C and C++ to creating dynamic and interactive web content using HTML, CSS, and JavaScript, and finally to the versatility of Python, I bring a comprehensive skill set to the table.</li>
+        </ul>
+        <h4>Developing expertise in cybersecurity</h4>
+        <ul>
+            <li class="just">Actively cultivating expertise in the field of cybersecurity, I have dedicated time to acquire comprehensive knowledge of security protocols and practices. This involves understanding the intricacies of safeguarding digital assets, identifying vulnerabilities, and implementing effective countermeasures. Through self-directed learning and hands-on experiences, I am building a solid foundation in cybersecurity concepts, threat detection, and risk mitigation. I am committed to staying informed about the ever-evolving landscape of cybersecurity to contribute effectively to the protection of information systems and networks.</li>
+        </ul>
+        <h4>Soft Skills</h4>
+        <ul>
+            <li class="just">
+                I excel in soft skills, particularly in critical thinking, time management, and adaptability. My critical thinking enables strategic problem-solving, ensuring well-informed decisions. Efficient time management ensures timely project completion, and my adaptability allows me to thrive in dynamic environments, fostering both personal growth and effective teamwork.</li>
+        </ul>
+        <h3>Training & Certification</h3>
+        <ul>
+            <li>Foundation of cybersecurity</li>
+            <li>Postman API Fundamentals Student Expert</li>
+        </ul>
+    </div>
+</body>
+</html>
